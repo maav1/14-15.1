@@ -5,5 +5,6 @@ def nok(number):
         else:
             break
     return i
+
 number = int(input('Введите число для которого надо найди НОК: '))
 print('Наименьший делитель, отличный от единицы:',nok(number))

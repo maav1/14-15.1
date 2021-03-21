@@ -1,4 +1,5 @@
 
+
 one_year = int(input('Введите первый год: '))
 two_year = int(input('Введите второй год: '))
 for i in range (one_year,two_year):

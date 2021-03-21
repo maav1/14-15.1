@@ -3,6 +3,7 @@ def calculating(x,y,r):
         print('Монетка рядом.')
     else:
         print('Монетка далеко.')
+
 print('Введите координаты монетки:')
 x = float(input('X: '))
 y = float(input('Y: '))

@@ -1,14 +1,12 @@
-def calculating(x,y,r):
-    if x ** 2 + y ** 2 <= r ** 2:
+def calculating(x_func, y_func, radius_func):
+    if x_func ** 2 + y_func ** 2 <= radius_func ** 2:
         print('Монетка рядом.')
     else:
         print('Монетка далеко.')
 
-print('Введите координаты монетки:')
-x = float(input('X: '))
-y = float(input('Y: '))
-r = int(input('Введите радиус: '))
-calculating(x,y,r)
 
-# TODO применяем рекомендации данные в 01
-# TODO нейминг переменных пишем все переменные развернуто
+print('Введите координаты монетки:')
+money_x = float(input('X: '))
+money_y = float(input('Y: '))
+radius_around = int(input('Введите радиус: '))
+calculating(money_x, money_y, radius_around)

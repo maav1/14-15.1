@@ -2,10 +2,13 @@
 
 one_year = int(input('Введите первый год: '))
 two_year = int(input('Введите второй год: '))
-for i in range (one_year,two_year):
-    if (i % 10 == (i // 10) % 10 and i % 10 == (i // 100) %10) or (i % 10 ==(i // 10) % 10 and i % 10 == i // 1000) or (i % 10 == (i // 100) % 10 and i % 10 == i // 1000) or ((i // 10) % 10 == (i // 100) % 10 and ((i // 10) % 10 == i // 1000)):
-        print(i)
-
-# TODO применяем рекомендации данные в 01
-# TODO нейминг переменных пишем все переменные развернуто
-# TODO вычисления выносим из условий в переменные
+for digit in range(one_year, two_year):
+    one_digit = digit // 1000
+    two_digit = (digit // 100) % 10
+    three_digit = (digit // 10) % 10
+    four_digit = digit % 10
+    if (four_digit == three_digit and four_digit == two_digit) or \
+            (four_digit == three_digit and four_digit == one_digit) or \
+            (four_digit == two_digit and four_digit == one_digit) or \
+            (three_digit == two_digit and three_digit == one_digit):
+        print(digit)

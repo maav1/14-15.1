@@ -15,18 +15,18 @@ number1 = enter_data()
 probel = [' ']
 total_num = number = []
 second_point = 0
-n = ''
+number_for_revers = ''
 number_one_revers = []
-for symb in number1:
-    if symb != '.' and symb != ' ':
-        number += symb
-    elif symb == '.':
+for symbol in number1:
+    if symbol != '.' and symbol != ' ':
+        number += symbol
+    elif symbol == '.':
         second_point += 1
-        n = number_revers(number)
+        number_for_revers = number_revers(number)
         if second_point != 2:
-            number_one_revers += (n + point)
+            number_one_revers += (number_for_revers + point)
         else:
-            number_one_revers += (n + probel)
+            number_one_revers += (number_for_revers + probel)
             second_point = 0
         number = []
     else:

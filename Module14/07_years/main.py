@@ -12,3 +12,6 @@ for digit in range(one_year, two_year):
             (four_digit == two_digit and four_digit == one_digit) or \
             (three_digit == two_digit and three_digit == one_digit):
         print(digit)
+
+
+# зачет!

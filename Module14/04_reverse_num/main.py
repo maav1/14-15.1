@@ -46,3 +46,6 @@ second_number_output = float(new_num2)
 summ_output = round(first_number_output + second_number_output, 3)
 print('\nПервое число наоборот:', first_number_output, '\nВторое число наоборот:', second_number_output,
       '\n\nИх сумма:', summ_output)
+
+# зачет!
+

@@ -10,3 +10,6 @@ money_x = float(input('X: '))
 money_y = float(input('Y: '))
 radius_around = int(input('Введите радиус: '))
 calculating(money_x, money_y, radius_around)
+
+# зачет!
+

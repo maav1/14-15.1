@@ -22,3 +22,6 @@ summa_digit = finding_sum_digits(number)
 count_number, difference = quantity_digit(int(number), summa_digit)
 print('Количество цифр:', count_number)
 print('Разность суммы и кол-ва цифр:', difference)
+
+# зачет!
+

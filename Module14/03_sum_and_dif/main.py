@@ -12,6 +12,7 @@ def quantity_digit(number_one, summa_digit_inner):
     while number_one != 0:
         counter += 1
         number_one = number_one // 10
+    # TODO почему добавили _func
     difference_func = summa_digit_inner - counter
     return counter, difference_func  # Возвращает количество и разность
 

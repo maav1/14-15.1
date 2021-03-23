@@ -1,4 +1,5 @@
 def nok(number_nok):
+    # TODO _lst тоже не нужно писать это же не список
     for number_in_lst in range(2, number_nok+1):
         if number_nok % number_in_lst > 0:
             continue

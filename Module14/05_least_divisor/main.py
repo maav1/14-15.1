@@ -1,9 +1,9 @@
 def nok(number_nok):
-    for num in range(2, number_nok+1):
-        if number_nok % num > 0:
+    for number_in_lst in range(2, number_nok+1):
+        if number_nok % number_in_lst > 0:
             continue
         else:
-            return num
+            return number_in_lst
 
 
 number = int(input('Введите число для которого надо найди НОК: '))

@@ -8,10 +8,10 @@ for digit in range(one_year, two_year):
     three_digit = (digit // 10) % 10
     four_digit = digit % 10
     # TODO не используем знак \ для переноса
-    if (four_digit == three_digit and four_digit == two_digit) or \
-            (four_digit == three_digit and four_digit == one_digit) or \
-            (four_digit == two_digit and four_digit == one_digit) or \
-            (three_digit == two_digit and three_digit == one_digit):
+    if ((four_digit == three_digit and four_digit == two_digit) or
+        (four_digit == three_digit and four_digit == one_digit) or
+        (four_digit == two_digit and four_digit == one_digit) or
+        (three_digit == two_digit and three_digit == one_digit)):
         print(digit)
 
 

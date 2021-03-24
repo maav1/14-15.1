@@ -1,5 +1,4 @@
 
-# TODO по неймингу можно понять что _func это функции принимаем
 def calculating(x_func, y_func, radius_func):
     if x_func ** 2 + y_func ** 2 <= radius_func ** 2:
         print('Монетка рядом.')

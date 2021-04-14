@@ -6,3 +6,5 @@ for i in range(number_elements):
 print('Список элементов:', row_elements, '\n')
 row_elements.sort()
 print('Отсортированный список:', row_elements)
+
+# TODO применить рекомендации данные ранее.

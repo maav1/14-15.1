@@ -5,3 +5,6 @@ for count in range(number_cell):
   if efficiency_cell < count + 1:
      cell.append(str(efficiency_cell))
 print('Не подходящие значения:', *cell)
+
+
+# TODO недочеты в оформлении

@@ -1,11 +1,13 @@
 
 container_quantity = int(input('Количество контейнеров: '))
+# TODO даже в сокращенной форме не указывать, и так понятно что это список контейнеров
 lst_containers = []
 text_all_containers = ['Введите вес контейнера (не более 200): ']
 text_new_container = ['Введите вес нового контейнера: ']
 count = 0
 
 
+# TODO назвали функцию функцией ? что делает ваша функция внутри
 def func_input(text_exit):
     try:
         temp_number = int(input(text_exit))

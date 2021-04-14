@@ -19,3 +19,5 @@ while True:
     print(row_elements, end='\r')
     sleep(1)
 '''
+
+# зачет!

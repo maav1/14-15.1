@@ -6,3 +6,5 @@ for letter in word:
         count += word.count(letter)
     new_word.append(letter)
 print('Уникальных букв:', len(word) - count)
+
+# зачет!

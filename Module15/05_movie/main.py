@@ -20,3 +20,5 @@ while True:
         continue
 print("Список понравившихся фильмов:")
 pprint(films_like)
+
+# зачет!
